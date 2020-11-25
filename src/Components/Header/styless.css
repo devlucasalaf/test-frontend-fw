@@ -1,0 +1,110 @@
+div#header-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+div#header-wrapper {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 3px rgb(220, 220, 220);
+}
+
+div#header-wrapper p {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #692fa5;
+  margin-left: 1.5rem;
+}
+
+div#menu-wrapper-desktop {
+  display: none;
+}
+
+div#menu-wrapper-mobile {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #692fa6;
+  z-index: 1000;
+}
+
+div#menu-wrapper-mobile button {
+  position: absolute;
+  outline: none;
+  background: transparent;
+  border: none;
+  top: 0;
+  right: 0;
+  margin: 1.71rem 1.76rem 0rem 0rem;
+}
+
+div#menu-items {
+  margin: 7.2rem 0rem 0rem 3rem;
+}
+
+.menu-burguer-btn {
+  margin-right: 1.5rem;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.links-items {
+  display: block;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3rem;
+  z-index: 999;
+  text-decoration: none;
+}
+
+.links-items:hover {
+  color: #692fa5;
+  border-bottom: 1px solid #692fa5;
+}
+
+@media (min-width: 1024px) {
+  .menu-burguer-btn {
+    display: none;
+  }
+
+  .close-menu-burguer-btn {
+    display: none;
+  }
+
+  div#header-wrapper {
+    justify-content: space-around;
+  }
+
+  div#menu-mobile {
+    display: none;
+  }
+
+  div#menu-wrapper-desktop {
+    display: unset;
+  }
+
+  div#menu-items {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+  .links-items {
+    display: unset;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 0rem 2rem 0rem 0rem;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: black;
+  }
+}

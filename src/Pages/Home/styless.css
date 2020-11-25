@@ -1,0 +1,521 @@
+div#home-container {
+  margin-top: 9rem;
+}
+
+div#banner-wrapper {
+  display: flex;
+  max-width: 100%;
+  height: 21.4rem;
+  position: relative;
+}
+
+div#banner-left-side {
+  width: 0%;
+}
+
+div#banner-right-side {
+  width: 100%;
+}
+
+div#banner-right-side img {
+  width: 100%;
+  height: 21.4rem;
+  object-fit: cover;
+}
+
+div#left-side-content {
+  width: 29rem;
+  margin-top: 1.8rem;
+  margin-left: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div#left-side-content h2 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 0.4rem;
+  font-weight: 900;
+}
+
+div#left-side-content h3 {
+  font-size: 2.2rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+div#left-side-content p {
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 4.799rem;
+}
+
+div#left-side-content img {
+  display: none;
+}
+
+@keyframes rotateXicara {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-45deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+#xicara {
+  display: none;
+}
+
+div#services-title {
+  text-align: center;
+  width: 29rem;
+  margin: 3rem auto 3rem auto;
+}
+
+div#services-title h2 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+div#services-title p {
+  font-size: 1.4rem;
+  color: #666666;
+}
+
+div#services-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  overflow-x: scroll;
+  height: 31.9rem;
+  margin-right: 1rem;
+}
+
+.service-info {
+  width: 23.4rem;
+  border-radius: 1.4rem;
+  height: 30.9rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  box-shadow: 1px 1px 10px rgb(199, 197, 197);
+}
+
+.service-info img {
+  width: 100%;
+  border-bottom: 4px solid #692fa5;
+}
+
+.service-description {
+  margin: 2.5rem 0rem 0rem 1.5rem;
+}
+
+.service-description h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.service-description p {
+  width: 20.4rem;
+  font-size: 1.4rem;
+  color: #656565;
+}
+
+div#diferenciais-wrapper {
+  margin-bottom: 5rem;
+}
+
+div#diferenciais-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 29rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#diferenciais-title h2 {
+  font-size: 2rem;
+  color: #333333;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+div#diferenciais-title p {
+  font-size: 1.4rem;
+  color: #666666;
+}
+
+div#diferenciais-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.diferencial-info {
+  width: 20.4rem;
+  height: 19.1rem;
+  text-align: center;
+  margin: 0rem 2.6rem 2rem 2.6rem;
+}
+
+.diferencial-info img {
+  margin-bottom: 1.5rem;
+}
+
+.diferencial-info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0.5rem;
+}
+
+.diferencial-info p {
+  font-size: 1.6rem;
+  color: #656565;
+}
+
+div#personas-wrapper {
+  position: relative;
+  margin: 0rem auto 7rem auto;
+  overflow: hidden;
+  max-width: 80rem;
+}
+
+div#personas-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+div#personas-title h2 {
+  font-size: 2rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+div#personas-title p {
+  font-size: 1.4rem;
+  color: #666666;
+  width: 29rem;
+  margin: 0 auto;
+}
+
+.slick-list {
+  overflow: visible;
+  margin-bottom: 3rem;
+  padding-left: 0.5rem;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  display: none;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  content: "•";
+  text-align: center;
+  color: #b6b6b6;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #692fa5;
+}
+
+div#personas-box {
+  max-width: 27rem;
+  min-width: 27rem;
+  margin: 0rem auto 0rem auto;
+  overflow: visible;
+}
+
+.persona-info {
+  min-width: 26rem;
+  max-width: 26rem;
+  background: #f3f3f3;
+  transition: 0.5s;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.persona-info p {
+  font-size: 1.4rem;
+  color: #232323;
+  margin-top: 1.7rem;
+  margin-left: 2rem;
+}
+
+.persona-id {
+  display: flex;
+  align-items: center;
+  margin: 2.8rem 0rem;
+}
+
+.persona-id img {
+  margin-left: 2rem;
+}
+
+.persona-id-name {
+  margin-left: 2rem;
+}
+
+.persona-id-name h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333333;
+}
+
+.persona-id-name p {
+  margin-top: 0.5rem;
+  margin-left: 0rem;
+  color: #999999;
+}
+
+.slider-arrow-btn {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  div#banner-wrapper {
+    display: flex;
+    width: 100%;
+    height: 51.1rem;
+    position: relative;
+  }
+
+  div#banner-left-side {
+    width: 50%;
+    background: #f3f3f3;
+  }
+
+  div#banner-right-side {
+    width: 50%;
+  }
+
+  div#banner-right-side img {
+    width: 100%;
+    height: 51.1rem;
+    object-fit: cover;
+  }
+
+  div#left-side-content {
+    width: 42.6rem;
+    margin-top: 8.8rem;
+    margin-left: unset;
+    margin-right: 5.4rem;
+    float: right;
+    position: unset;
+  }
+
+  div#left-side-content h2 {
+    font-size: 3rem;
+    color: #692fa5;
+    margin-bottom: 1rem;
+    font-weight: 900;
+  }
+
+  div#left-side-content h3 {
+    font-size: 4.2rem;
+    color: #232323;
+    margin-bottom: 1rem;
+    font-weight: 900;
+  }
+
+  div#left-side-content p {
+    font-size: 1.6rem;
+    color: #666666;
+    margin-bottom: 3rem;
+  }
+
+  @keyframes mouseMovement {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(2rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  div#left-side-content img {
+    display: block;
+    animation: mouseMovement 4s infinite;
+    cursor: pointer;
+  }
+
+  #xicara {
+    display: block;
+    position: absolute;
+    right: 25%;
+    margin-right: -22.25rem;
+    margin-bottom: -22.25rem;
+    bottom: 0;
+    z-index: 998;
+    animation: rotateXicara 20s infinite;
+  }
+  div#services-title {
+    text-align: center;
+    margin: 5rem unset 3rem unset;
+    width: unset;
+  }
+  div#services-title h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+
+  div#services-title p {
+    font-size: 1.4rem;
+    color: #666666;
+  }
+
+  div#services-box {
+    justify-content: center;
+    margin-bottom: 5rem;
+    overflow: unset;
+    height: unset;
+    margin-right: unset;
+  }
+
+  .service-info {
+    width: 31rem;
+    border-radius: 1.4rem;
+    height: 36.2rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    box-shadow: 1px 1px 10px rgb(199, 197, 197);
+  }
+
+  .service-description {
+    margin: 2.5rem 0rem 0rem 5.3rem;
+  }
+
+  div#diferenciais-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    width: unset;
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  div#diferenciais-title h2 {
+    font-size: 2.8rem;
+    color: #333333;
+    font-weight: 900;
+    margin-bottom: 0.8rem;
+  }
+
+  div#diferenciais-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: unset;
+  }
+
+  .diferencial-info h2 {
+    font-weight: 700;
+  }
+
+  div#personas-wrapper {
+    position: relative;
+    margin-bottom: 12rem;
+    max-width: unset;
+  }
+
+  div#personas-title h2 {
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  div#personas-title p {
+    width: unset;
+    margin: unset;
+  }
+
+  div#personas-box {
+    max-width: 96rem;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .persona-info {
+    min-width: 31rem;
+    max-width: 31rem;
+    margin: 0rem 0.75rem 3rem 0.75rem;
+    background: #f3f3f3;
+    transition: 0.5s;
+    border-radius: 0.8rem;
+  }
+
+  .slick-list {
+    overflow: hidden;
+    margin-bottom: 3rem;
+    padding-left: unset;
+  }
+
+  .slick-next:before,
+  .slick-prev:before {
+    display: block;
+    position: absolute;
+    z-index: 997;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 6rem;
+    width: 5rem;
+    height: 5.1rem;
+    color: transparent;
+  }
+
+  .slick-prev:before {
+    margin-left: -4rem;
+    margin-top: -4rem;
+  }
+
+  .slick-next:before {
+    margin-left: 1.5rem;
+    margin-top: -4rem;
+  }
+
+  .slider-arrow-btn {
+    display: block;
+    position: absolute;
+    font-size: 6rem;
+    color: #dddddd;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+  #left-arrow-btn {
+    top: 0;
+    left: 0;
+    margin-top: 6rem;
+    margin-left: -7rem;
+  }
+
+  #right-arrow-btn {
+    top: 0;
+    right: 0;
+    margin-top: 6rem;
+    margin-right: -7rem;
+  }
+}
